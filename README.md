@@ -1,4 +1,42 @@
-This project presents an analysis of hospital pharmacy procurement data for the years 2022–2024. The objective of the analysis was to assess the share of purchases made outside formal supplier contracts and to identify suppliers generating off-contract costs. The dataset used in the project is simulated and includes invoice-level data such as invoice number, supplier, issue date, gross value, document type, warehouse, and contract information.
-Data preparation included text standardization using TRIM, conversion of text-formatted numerical values into numeric format, validation of sign consistency between invoices and corrections, duplicate checks, and classification of transactions into “contract” and “off-contract” categories. The cleaned dataset was then used to build pivot tables and a dashboard presenting key performance indicators and trends over time.
-The analysis showed that 20.8% of the total procurement value in the analyzed period was executed outside formal contracts. The share of off-contract purchases remained relatively stable over time, indicating a consistent structure of procurement behavior across the three years. Although the distribution of off-contract purchases among suppliers is relatively diversified, MedicaPharm generated the highest off-contract value, which may indicate an area for further investigation.
-The results suggest that off-contract purchasing has a systemic rather than incidental character. From a business perspective, this may indicate the need to review the scope of existing contracts or to analyze operational drivers behind non-contracted purchases. The project was completed using Microsoft Excel with pivot tables, data validation logic, and a structured dashboard layout.
+📊 Hospital Pharmacy Procurement Analysis
+Excel-based data analysis project focused on procurement efficiency in a hospital pharmacy
+
+🎯 Project goal
+The goal of this project was to analyze hospital pharmacy procurement data (2022–2024) to assess the share of off-contract purchases and identify suppliers generating additional costs.
+
+🧠 Business context
+Off-contract purchases may indicate inefficiencies in procurement processes and lead to increased costs. Monitoring their scale and structure is important for contract optimization and cost control.
+
+🗂️ Data
+The dataset (simulated) includes invoice-level data:
+
+invoice number, supplier, issue date
+gross value, document type, warehouse
+contract vs off-contract classification
+
+🛠️ Data preparation
+text standardization (TRIM)
+conversion of text-formatted numbers
+validation of invoice/correction consistency
+duplicate detection
+classification into contract vs off-contract
+
+📈 Analysis
+share of off-contract purchases
+supplier-level analysis
+trend analysis over time
+structure of procurement behavior
+
+📊 Key findings
+20.8% of total procurement value was executed outside formal contracts
+off-contract share remained relatively stable over time
+off-contract purchases are distributed across multiple suppliers
+MedicaPharm generated the highest off-contract value
+
+💡 Conclusions
+off-contract purchasing appears to be systemic rather than incidental
+potential need to review contract scope or procurement processes
+supplier-level analysis can help identify optimization opportunities
+
+🛠️ Tools
+Microsoft Excel (pivot tables, data validation, dashboard)
